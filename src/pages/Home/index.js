@@ -27,7 +27,7 @@ class Home extends Component {
   handleAddProduct = id => {
     const { addToCartRequest } = this.props;
 
-    addToCart(id);
+    addToCartRequest(id);
   };
 
   render() {
